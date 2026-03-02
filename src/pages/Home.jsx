@@ -2,9 +2,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, CheckCircle, ShieldCheck } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import pic1 from '../assets/images/pic1.png';
-import pic2 from '../assets/images/pic3.png';
-import blacktheme from '../assets/images/blacktheme.png';
+// import pic1 from '../../public/assets/images/pic1.png';
+// import pic2 from '../../public/assets/images/pic3.png';
+// import blacktheme from '../../public/assets/images/blacktheme.png';
 const categories = [
     { name: "Protein Bars", color: "bg-[#4A3728]" },
     { name: "Muesli", color: "bg-[#D4A373]" },
@@ -111,7 +111,7 @@ const Home = () => {
                             }}
                         >
                             <img
-                                src={pic1}
+                                src='https://stock.adobe.com/search?k=wheat+flour'
                                 alt="Delicious Item 1"
                                 className="absolute inset-0 w-full h-full object-cover rounded-3xl shadow-2xl"
                                 style={{
@@ -119,7 +119,7 @@ const Home = () => {
                                 }}
                             />
                             <img
-                                src={pic2}
+                                src='https://www.istockphoto.com/photos/whole-wheat-flour'
                                 alt="Delicious Item 2"
                                 className="absolute inset-0 w-full h-full object-cover rounded-3xl shadow-2xl"
                                 style={{
@@ -127,7 +127,7 @@ const Home = () => {
                                 }}
                             />
                             <img
-                                src={blacktheme}
+                                src='https://www.gettyimages.in/photos/whole-wheat-flour'
                                 alt="Delicious Item 3"
                                 className="absolute inset-0 w-full h-full object-cover rounded-3xl shadow-2xl"
                                 style={{
